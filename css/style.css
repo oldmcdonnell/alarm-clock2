@@ -16,6 +16,9 @@ body {
     width: 60%;
     height: 400px;
     margin: 0 auto;
+    background: url('https://www.goodfreephotos.com/albums/other-photos/angel-entering-heaven-with-light.jpg');
+    /* background: url("/img/bg2.jpg")-*/
+}
 }
 
 #clock {
