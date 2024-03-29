@@ -3,28 +3,23 @@
 }
 
 html {
-    padding-top:50px;
+    padding-top:150px;
+    height: 100%
 }
 
 
 
-body, .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 body {
-    border: 8px solid lightgreen;
+    border: 8px solid rgb(44, 6, 16);
     border-radius: 20px;
-    padding: 40px;
+    padding: 80px;
     width: 60%;
     height: 400px;
     margin: 0 auto;
-    background-image: "img/background.jpg";
-    background-size: 100% auto;
 }
+
 #clock {
-    height:120px;
+    height:80px;
     font-size: 40px;
     font-family: arial;
     font-weight: bold;
@@ -76,48 +71,3 @@ label {
     background-color:red;
     margin-top:10px;
 }
-/*flipping animation*/
-
-/* entire container, keeps perspective */
-.flip-container {
-	perspective: 1000px;
-}
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
-
-.flip-container, .front, .back {
-	width: 320px;
-	height: 480px;
-}
-
-/* flip speed goes here */
-.flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
-}
-
-/* back, initially hidden pane */
-.back {
-	transform: rotateY(180deg);
-}
-*/
