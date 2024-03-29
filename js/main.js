@@ -33,14 +33,14 @@ function startTime() {
       temp = temp + "<img src='" + img[s[i]] + "'/>"
     }
     //uncomment below line to see what the temporary variable says
-    //console.log(temp)
+    console.log(temp)
     return temp
   }
   
   
   //all image URLs are put into this array. feel free to change URLs
   var img = {
-    "1": "img/1.jpg"
+    "1": "img/1.jpg",
     "2": "img/2.jpg",
     "3": "img/3.jpg",
     "4": "img/4.jpg",
